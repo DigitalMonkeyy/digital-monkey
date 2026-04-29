@@ -82,7 +82,11 @@ export default function Home() {
               />
             </div>
             <div>
-              <p className="font-semibold tracking-tight">Digital Monkey</p>
+              <img
+                src="/collectibles/logo-text.png"
+                alt="Digital Monkey"
+                className="h-5 object-contain"
+              />
               <p className="text-xs text-white/40">Creator • Collector • Builder</p>
             </div>
           </div>
