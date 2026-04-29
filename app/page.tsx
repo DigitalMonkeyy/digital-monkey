@@ -63,7 +63,7 @@ export default function Home() {
   const glowY = useTransform(scrollYProgress, [0, 1], [0, -220]);
 
   return (
-    <main className="min-h-screen bg-[#07080d] text-[#f7f7f8] selection:bg-[#b8a7ff] selection:text-black">
+    <main className="min-h-screen bg-[#07080d] text-[#f7f7f8] selection:bg-[#f5c542] selection:text-black">
       <section className="relative min-h-screen overflow-hidden border-b border-white/10">
         <motion.div
           style={{ y: glowY }}
@@ -101,7 +101,7 @@ export default function Home() {
             href={referralLink}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-black transition hover:bg-[#b8a7ff]"
+            className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-black transition hover:bg-[#f5c542]"
           >
             Start on VeVe
           </a>
@@ -145,7 +145,7 @@ export default function Home() {
               href={referralLink}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full bg-white px-8 py-4 font-semibold text-black shadow-2xl shadow-white/10 transition hover:bg-[#b8a7ff]"
+              className="rounded-full bg-white px-8 py-4 font-semibold text-black shadow-2xl shadow-white/10 transition hover:bg-[#f5c542]"
             >
               Start Collecting
             </a>
@@ -185,7 +185,7 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
-                  <div className="mt-6 rounded-2xl border border-[#b8a7ff]/20 bg-[#b8a7ff]/10 p-5">
+                  <div className="mt-6 rounded-2xl border border-[#f5c542]/20 bg-[#f5c542]/10 p-5">
                     <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#c9bdff]">Example Signal</p>
                     <p className="mt-2 text-xl font-semibold text-white">🎯 MATCH FOUND: Spider-Man SR Mint #46 listed</p>
                   </div>
@@ -219,7 +219,7 @@ export default function Home() {
       >
         <div className="mb-12 grid gap-8 md:grid-cols-[0.9fr_1.1fr] md:items-end">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#b8a7ff]">Featured Collection</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">Featured Collection</p>
             <h2 className="mt-4 text-5xl font-semibold tracking-[-0.06em] md:text-7xl">A digital shelf built on conviction.</h2>
           </div>
           <p className="max-w-2xl text-lg leading-relaxed text-white/50 md:justify-self-end">
@@ -252,7 +252,7 @@ export default function Home() {
       >
         <div className="mx-auto grid max-w-7xl gap-8 rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 shadow-2xl shadow-black/20 backdrop-blur-xl md:p-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#b8a7ff]">Digital Monkey Tracker</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">Digital Monkey Tracker</p>
             <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">A signal engine for VeVe opportunities.</h2>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50">
               Built to surface what matters: matching mints, grail listings, StackR movement, and collector opportunities worth watching.
@@ -265,7 +265,7 @@ export default function Home() {
                 <p className="text-sm text-white/35">Tracker Status</p>
                 <h3 className="text-2xl font-semibold">Live signal feed</h3>
               </div>
-              <span className="rounded-full bg-[#b8a7ff] px-4 py-2 text-xs font-semibold text-black">ONLINE</span>
+              <span className="rounded-full bg-[#f5c542] px-4 py-2 text-xs font-semibold text-black">ONLINE</span>
             </div>
             <div className="space-y-3">
               {["🎯 Matching mint detected", "💎 Grail listing spotted", "⚡ StackR activity moving"].map((item) => (
@@ -290,7 +290,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 text-white shadow-2xl shadow-black/20 backdrop-blur-xl md:p-14">
           <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#b8a7ff]">About Digital Monkey</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">About Digital Monkey</p>
               <h2 className="mt-4 text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Creator. Collector. Builder.</h2>
               <p className="mt-6 max-w-3xl text-xl leading-relaxed text-white/58">
                 This isn’t just content — it’s a front-row seat to where digital ownership is going. I break down trends, highlight opportunities, and help collectors understand why this space matters before it becomes obvious.
@@ -319,13 +319,13 @@ export default function Home() {
         <div className="mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 text-white shadow-2xl shadow-black/20 backdrop-blur-xl md:p-14">
           <div className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#b8a7ff]">VeVe Referral</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">VeVe Referral</p>
               <h2 className="mt-3 max-w-4xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Ready to start collecting?</h2>
               <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/55">
                 Join VeVe through my referal and start exploring the future of digital collecting.
               </p>
             </div>
-            <a href={referralLink} target="_blank" rel="noreferrer" className="rounded-full bg-white px-9 py-5 text-lg font-semibold text-black transition hover:bg-[#b8a7ff]">
+            <a href={referralLink} target="_blank" rel="noreferrer" className="rounded-full bg-white px-9 py-5 text-lg font-semibold text-black transition hover:bg-[#f5c542]">
               Join VeVe →
             </a>
           </div>
