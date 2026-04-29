@@ -85,7 +85,7 @@ export default function Home() {
               <img
                 src="/collectibles/logo-text.png"
                 alt="Digital Monkey"
-                className="h-8 object-contain"
+                className="h-10 object-contain"
               />
               <p className="text-xs text-white/40">Creator • Collector • Builder</p>
             </div>
