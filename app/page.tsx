@@ -74,7 +74,13 @@ export default function Home() {
 
         <nav className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white text-xl text-black shadow-2xl shadow-white/10">🐒</div>
+            <div className="h-10 w-10 rounded-xl overflow-hidden border border-white/10 bg-white/10 backdrop-blur">
+              <img
+                src="/logo.png"
+                alt="Digital Monkey"
+                className="h-full w-full object-cover"
+              />
+            </div>
             <div>
               <p className="font-semibold tracking-tight">Digital Monkey</p>
               <p className="text-xs text-white/40">Creator • Collector • Builder</p>
