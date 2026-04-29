@@ -20,7 +20,7 @@ const collectibles = [
     name: "Todd Batman FA",
     collection: "Batman Black & White",
     tag: "Genesis Grail",
-    image: "https://via.placeholder.com/700x900/11131a/f4f4f5?text=Todd+Batman+FA",
+    image: "https://d11unjture0ske.cloudfront.net/collectible_type_image.c3df7496-e8e7-4507-b80a-5c2b5d996645.eb65d5cd-3371-4082-8898-88991930ddb1.full.jpeg",
   },
   {
     name: "Superman FA",
