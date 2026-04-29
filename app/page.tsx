@@ -67,7 +67,7 @@ export default function Home() {
       <section className="relative min-h-screen overflow-hidden border-b border-white/10">
         <motion.div
           style={{ y: glowY }}
-          className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-10%,rgba(184,167,255,0.35),transparent_34%),radial-gradient(circle_at_12%_30%,rgba(255,255,255,0.10),transparent_28%),radial-gradient(circle_at_90%_35%,rgba(84,117,255,0.16),transparent_28%),linear-gradient(180deg,#11131a_0%,#07080d_70%)]"
+          className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-10%,rgba(245,197,66,0.30),transparent_34%),radial-gradient(circle_at_12%_30%,rgba(255,255,255,0.10),transparent_28%),radial-gradient(circle_at_90%_35%,rgba(245,197,66,0.10),transparent_28%),linear-gradient(180deg,#11131a_0%,#07080d_70%)]"
         />
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_0%,rgba(7,8,13,0.85)_100%)]" />
@@ -186,7 +186,7 @@ export default function Home() {
                     ))}
                   </div>
                   <div className="mt-6 rounded-2xl border border-[#f5c542]/20 bg-[#f5c542]/10 p-5">
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#c9bdff]">Example Signal</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#ffe08a]">Example Signal</p>
                     <p className="mt-2 text-xl font-semibold text-white">🎯 MATCH FOUND: Spider-Man SR Mint #46 listed</p>
                   </div>
                 </div>
