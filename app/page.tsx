@@ -76,7 +76,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl overflow-hidden border border-white/10 bg-white/10 backdrop-blur">
               <img
-                src="/logo.png"
+                src="/collectibles/logo.png"
                 alt="Digital Monkey"
                 className="h-full w-full object-cover"
               />
