@@ -23,16 +23,16 @@ const collectibles = [
     image: "/collectibles/batman.png",
   },
   {
-    name: "Superman FA",
-    collection: "DC Direct",
+    name: "Spider-Man FA",
+    collection: "Modern Marvel S1 - Spider-Man",
     tag: "Blue Chip",
-    image: "https://via.placeholder.com/700x900/11131a/f4f4f5?text=Superman+FA",
+    image: "/collectibles/spiderman.png",
   },
   {
-    name: "Darth Vader FA",
-    collection: "Star Wars",
+    name: "Superman FA",
+    collection: "Superman - S1",
     tag: "Iconic IP",
-    image: "https://via.placeholder.com/700x900/11131a/f4f4f5?text=Darth+Vader+FA",
+    image: "/collectibles/superman.png",
   },
 ];
 
@@ -53,7 +53,7 @@ const pillars = [
   },
   {
     title: "Builder",
-    text: "I build tracker tools that surface matching mints, listings, and collector opportunities faster.",
+    text: "I build tools that surface matching mints, listings, sales, and collector opportunities.",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="mx-auto mb-7 w-fit rounded-full border border-white/10 bg-white/[0.07] px-4 py-2 text-sm font-medium text-white/65 shadow-2xl shadow-black/30 backdrop-blur-xl"
           >
-            Documenting the rise of digital ownership
+            Documenting The Rise Of Digital Ownership
           </motion.div>
 
           <motion.h1
@@ -312,7 +312,7 @@ export default function Home() {
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#b8a7ff]">VeVe Referral</p>
               <h2 className="mt-3 max-w-4xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Ready to start collecting?</h2>
               <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/55">
-                Join VeVe through Digital Monkey and start exploring the future of digital collecting.
+                Join VeVe through my referal and start exploring the future of digital collecting.
               </p>
             </div>
             <a href={referralLink} target="_blank" rel="noreferrer" className="rounded-full bg-white px-9 py-5 text-lg font-semibold text-black transition hover:bg-[#b8a7ff]">
