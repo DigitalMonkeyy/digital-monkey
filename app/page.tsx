@@ -234,7 +234,7 @@ export default function Home() {
           </p>
         </div>
 
-        <motion.div className="grid gap-5 md:grid-cols-3" variants={staggerWrap} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.18 }}>
+        <motion.div className="grid gap-5 md:grid-cols-4" variants={staggerWrap} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.18 }}>
           {collectibles.map((item) => (
             <motion.article key={item.name} variants={fadeUp} className="group overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.055] p-3 shadow-2xl shadow-black/20 backdrop-blur-xl transition hover:bg-white/[0.08]">
               <img src={item.image} alt={item.name} className="aspect-[4/5] w-full rounded-[1.45rem] object-cover opacity-90 transition duration-500 group-hover:scale-[1.03] group-hover:opacity-100" />
@@ -262,7 +262,7 @@ export default function Home() {
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">Digital Monkey Tracker</p>
             <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Real-time tracking of grail sales across VeVe & StackR.</h2>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50">
-              From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market. 📊💎
+              From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market.
             </p>
           </div>
 
