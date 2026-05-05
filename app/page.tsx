@@ -83,14 +83,14 @@ export default function Home() {
         <img
           src="/collectibles/monkey-left.png"
           alt=""
-          className="pointer-events-none absolute left-0 top-[35%] z-10 hidden h-[85vh] max-h-[900px] -translate-y-1/2 object-contain opacity-90 md:block"
+          className="pointer-events-none absolute left-0 top-[52%] z-10 hidden h-[86vh] max-h-[900px] -translate-y-1/2 object-contain opacity-90 md:block"
         />
 
         {/* Right Monkey (mirrored) */}
         <img
           src="/collectibles/monkey-right.png"
           alt=""
-          className="pointer-events-none absolute left-0 top-[35%] z-10 hidden h-[85vh] max-h-[900px] -translate-y-1/2 object-contain scale-x-[-1] opacity-90 md:block"
+          className="pointer-events-none absolute right-0 top-[52%] z-10 hidden h-[86vh] max-h-[900px] -translate-y-1/2 object-contain scale-x-[-1] opacity-90 md:block"
         />
 
         <nav className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
