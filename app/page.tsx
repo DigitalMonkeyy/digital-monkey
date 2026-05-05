@@ -99,8 +99,8 @@ export default function Home() {
 
           <div className="hidden items-center gap-8 text-sm font-medium text-white/50 md:flex">
             <a href="#collection" className="transition hover:text-white">Collection</a>
-            <a href="https://x.com/TrackerVeve" className="transition hover:text-white">Tracker</a>
             <a href="https://x.com/VeVeAlert" className="transition hover:text-white">Mint Alerts</a>
+            <a href="https://x.com/TrackerVeve" className="transition hover:text-white">Tracker</a>
             <a href="#about" className="transition hover:text-white">About</a>
           </div>
 
@@ -177,7 +177,7 @@ export default function Home() {
                   <span className="h-3 w-3 rounded-full bg-[#ffbd2e]" />
                   <span className="h-3 w-3 rounded-full bg-[#28c840]" />
                 </div>
-                <span className="text-xs font-medium text-white/35">digital-monkey.signal</span>
+                <a href="https://x.com/VeVeAlert" target="_blank" rel="noreferrer" className="text-xs font-medium text-white/35 hover:text-white transition"> X ACCOUNT </a>
               </div>
 
               <div className="grid gap-0 lg:grid-cols-[1fr_360px]">
