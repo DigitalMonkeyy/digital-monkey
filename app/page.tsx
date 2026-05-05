@@ -81,14 +81,14 @@ export default function Home() {
 
         {/* Left Monkey */}
         <img
-          src="/collectibles/monkey.png"
+          src="/collectibles/monkey-left.png"
           alt=""
           className="pointer-events-none absolute left-0 bottom-0 z-10 hidden w-[28vw] max-w-[420px] opacity-90 md:block"
         />
 
         {/* Right Monkey (mirrored) */}
         <img
-          src="/collectibles/monkey.png"
+          src="/collectibles/monkey-right.png"
           alt=""
           className="pointer-events-none absolute right-0 bottom-0 z-10 hidden w-[28vw] max-w-[420px] scale-x-[-1] opacity-90 md:block"
         />
