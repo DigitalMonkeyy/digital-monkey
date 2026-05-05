@@ -34,6 +34,12 @@ const collectibles = [
     tag: "Iconic IP",
     image: "/collectibles/superman.png",
   },
+  {
+    name: "Partners Statue FA",
+    collection: "Walt Disney & Mickey Mouse",
+    tag: "Iconic IP",
+    image: "/collectibles/walt.png",
+  },
 ];
 
 const signals = [
