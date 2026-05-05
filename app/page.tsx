@@ -293,7 +293,7 @@ export default function Home() {
 
       <motion.section
         id="about"
-        className="px-6 pb-24"
+        className="scroll-mt-24 px-6 pb-24"
         variants={fadeUp}
         initial="hidden"
         whileInView="visible"
