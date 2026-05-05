@@ -78,6 +78,21 @@ export default function Home() {
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent" />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,transparent_0%,rgba(7,8,13,0.85)_100%)]" />
 
+
+        {/* Left Monkey */}
+        <img
+          src="/collectibles/monkey.png"
+          alt=""
+          className="pointer-events-none absolute left-0 bottom-0 z-10 hidden w-[28vw] max-w-[420px] opacity-90 md:block"
+        />
+
+        {/* Right Monkey (mirrored) */}
+        <img
+          src="/collectibles/monkey.png"
+          alt=""
+          className="pointer-events-none absolute right-0 bottom-0 z-10 hidden w-[28vw] max-w-[420px] scale-x-[-1] opacity-90 md:block"
+        />
+
         <nav className="relative z-20 mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl overflow-hidden border border-white/10 bg-white/10 backdrop-blur">
@@ -120,7 +135,7 @@ export default function Home() {
           </a>
         </nav>
 
-        <motion.div style={{ y: heroY }} className="relative z-10 mx-auto max-w-7xl px-6 pb-24 pt-20 text-center">
+        <motion.div style={{ y: heroY }} className="relative z-20 mx-auto max-w-7xl px-6 pb-24 pt-20 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
