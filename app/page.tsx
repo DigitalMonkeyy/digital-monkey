@@ -256,7 +256,7 @@ export default function Home() {
 
       <motion.section
         id="tracker"
-        className="px-6 pb-28"
+        className="scroll-mt-32 px-6 pb-28"
         variants={fadeUp}
         initial="hidden"
         whileInView="visible"
