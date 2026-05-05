@@ -93,8 +93,8 @@ export default function Home() {
 
           <div className="hidden items-center gap-8 text-sm font-medium text-white/50 md:flex">
             <a href="#collection" className="transition hover:text-white">Collection</a>
-            <a href="https://x.com/TrackerVeve" className="transition hover:text-white">Feed</a>
             <a href="https://x.com/TrackerVeve" className="transition hover:text-white">Tracker</a>
+            <a href="https://x.com/VeVeAlert" className="transition hover:text-white">Mint Alerts</a>
             <a href="#about" className="transition hover:text-white">About</a>
           </div>
 
