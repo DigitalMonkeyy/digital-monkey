@@ -88,11 +88,17 @@ export default function Home() {
               />
             </div>
             <div>
-              <img
-                src="/collectibles/logo-text.png"
-                alt="Digital Monkey"
-                className="h-7 object-contain"
-              />
+              <a
+                href="https://x.com/TrackerVeve"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/collectibles/logo-text.png"
+                  alt="Digital Monkey"
+                  className="h-7 object-contain hover:opacity-80 transition"
+                />
+              </a>
               <p className="text-xs text-white/40">Creator • Collector • Builder</p>
             </div>
           </div>
