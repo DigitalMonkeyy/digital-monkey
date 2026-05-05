@@ -183,7 +183,7 @@ export default function Home() {
                   <span className="h-3 w-3 rounded-full bg-[#ffbd2e]" />
                   <span className="h-3 w-3 rounded-full bg-[#28c840]" />
                 </div>
-                <a href="https://x.com/VeVeAlert" target="_blank" rel="noreferrer" className="text-xs font-medium text-white/35 hover:text-white transition"> Click HERE </a>
+                <a href="https://x.com/VeVeAlert" target="_blank" rel="noreferrer" className="text-xs font-medium text-white/35 hover:text-white transition"> Access HERE </a>
               </div>
 
               <div className="grid gap-0 lg:grid-cols-[1fr_360px]">
