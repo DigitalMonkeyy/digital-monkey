@@ -177,7 +177,7 @@ export default function Home() {
               <div className="grid gap-0 lg:grid-cols-[1fr_360px]">
                 <div className="p-6 md:p-8">
                   <p className="text-sm font-medium text-white/35">Live collector dashboard</p>
-                  <h2 className="mt-2 text-3xl font-semibold tracking-tight text-white md:text-5xl">VeVe Signal Feed</h2>
+                  <h2 className="mt-2 text-3xl font-semibold tracking-tight text-white md:text-5xl">VeVe Mint Alerts</h2>
                   <div className="mt-8 grid gap-3 md:grid-cols-3">
                     {signals.map((item) => (
                       <div key={item.label} className="rounded-2xl border border-white/10 bg-white/[0.04] p-5">
@@ -188,7 +188,7 @@ export default function Home() {
                   </div>
                   <div className="mt-6 rounded-2xl border border-[#f5c542]/20 bg-[#f5c542]/10 p-5">
                     <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#ffe08a]">Example Signal</p>
-                    <p className="mt-2 text-xl font-semibold text-white">🎯 MATCH FOUND: Spider-Man SR Mint #46 listed</p>
+                    <p className="mt-2 text-xl font-semibold text-white">🎯 Special Mint FOUND: Spider-Man SR Mint #47 listed</p>
                   </div>
                 </div>
 
@@ -254,9 +254,9 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-8 rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 shadow-2xl shadow-black/20 backdrop-blur-xl md:p-12 lg:grid-cols-2 lg:items-center">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">Digital Monkey Tracker</p>
-            <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">A signal engine for VeVe opportunities.</h2>
+            <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Real-time tracking of grail sales across VeVe & StackR.</h2>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50">
-              Built to surface what matters: matching mints, grail listings, StackR movement, and collector opportunities worth watching.
+              From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market. 📊💎
             </p>
           </div>
 
@@ -264,12 +264,12 @@ export default function Home() {
             <div className="mb-5 flex items-center justify-between">
               <div>
                 <p className="text-sm text-white/35">Tracker Status</p>
-                <h3 className="text-2xl font-semibold">Live signal feed</h3>
+                <h3 className="text-2xl font-semibold">X account feed</h3>
               </div>
               <span className="rounded-full bg-[#f5c542] px-4 py-2 text-xs font-semibold text-black">ONLINE</span>
             </div>
             <div className="space-y-3">
-              {["🎯 Matching mint detected", "💎 Grail listing spotted", "⚡ StackR activity moving"].map((item) => (
+              {["🎯 Grail listing spotted", "💎 Amount in OMI/USD", "⚡ Transaction URL"].map((item) => (
                 <div key={item} className="rounded-2xl border border-white/10 bg-white/[0.045] p-5 font-medium text-white/75">
                   {item}
                 </div>
