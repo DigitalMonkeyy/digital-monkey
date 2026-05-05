@@ -37,7 +37,7 @@ const collectibles = [
 ];
 
 const signals = [
-  { label: "Matching Mint", value: "Detected" },
+  { label: "Special Mint", value: "Detected" },
   { label: "Grail Watch", value: "Active" },
   { label: "Market Signal", value: "Live" },
 ];
@@ -188,7 +188,7 @@ export default function Home() {
                   </div>
                   <div className="mt-6 rounded-2xl border border-[#f5c542]/20 bg-[#f5c542]/10 p-5">
                     <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#ffe08a]">Example Signal</p>
-                    <p className="mt-2 text-xl font-semibold text-white">🎯 Special Mint FOUND: Spider-Man SR Mint #47 listed</p>
+                    <p className="mt-2 text-xl font-semibold text-white">🎯 LOW MINT FOUND: Spider-Man SR Mint #47 listed</p>
                   </div>
                 </div>
 
