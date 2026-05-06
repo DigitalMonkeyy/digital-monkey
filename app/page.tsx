@@ -278,7 +278,8 @@ export default function Home() {
         viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
-        <div className="mx-auto grid max-w-7xl gap-8 rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 shadow-2xl shadow-black/20 backdrop-blur-xl md:p-12 lg:grid-cols-2 lg:items-center">
+        <div className="relative mx-auto grid max-w-7xl gap-8 rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 shadow-2xl shadow-black/20 backdrop-blur-xl md:p-12 lg:grid-cols-2 lg:items-center">
+          <a href="https://x.com/TrackerVeve" target="_blank" rel="noreferrer" className="absolute right-8 top-8 rounded-full border border-white/10 bg-white/[0.05] px-4 py-2 text-xs font-semibold text-white/65 transition hover:border-[#f5c542]/40 hover:bg-[#f5c542]/10 hover:text-[#f5c542]" > Access HERE → </a>
           <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">
@@ -293,15 +294,6 @@ export default function Home() {
                 From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market.
               </p>
             </div>
-
-            <a
-              href="https://x.com/TrackerVeve"
-              target="_blank"
-              rel="noreferrer"
-              className="mt-1 rounded-full border border-white/15 bg-white/[0.06] px-5 py-2.5 text-sm font-semibold text-white/80 transition hover:border-[#f5c542]/50 hover:bg-[#f5c542]/10 hover:text-[#f5c542]"
-            >
-              Access HERE →
-            </a>
           </div>          
 
           <div className="rounded-[2rem] border border-white/10 bg-[#0b0d13] p-5">
