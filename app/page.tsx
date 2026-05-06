@@ -151,7 +151,7 @@ export default function Home() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="mx-auto max-w-6xl text-6xl font-semibold leading-[0.88] tracking-[-0.08em] text-white md:text-8xl lg:text-9xl"
           >
-            The future of collecting, made obvious.
+            The future of collecting isn’t coming — it’s already here.
           </motion.h1>
 
           <motion.p
@@ -160,7 +160,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.15 }}
             className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/58 md:text-xl"
           >
-            I’m Digital Monkey — a creator focused on VeVe digital collectibles, OMI, Web3 ecosystems, and the opportunities most people are still sleeping on.
+            I’m Digital Monkey — documenting the rise of VeVe, OMI, and the next era of digital ownership… while making it easier for you to understand and capitalize on it.
           </motion.p>
 
           <motion.div
