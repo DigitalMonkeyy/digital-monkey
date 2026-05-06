@@ -282,6 +282,14 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">Digital Monkey Tracker</p>
             <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Real-time tracking of grail sales across VeVe & StackR.</h2>
+            <a
+              href="https://x.com/TrackerVeve"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-1 rounded-full border border-white/15 bg-white/[0.06] px-5 py-2.5 text-sm font-semibold text-white/80 transition hover:border-[#f5c542]/50 hover:bg-[#f5c542]/10 hover:text-[#f5c542]"
+            >
+              Access HERE →
+            </a>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50">
               From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market.
             </p>
