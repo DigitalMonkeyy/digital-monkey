@@ -279,9 +279,21 @@ export default function Home() {
         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       >
         <div className="mx-auto grid max-w-7xl gap-8 rounded-[2.5rem] border border-white/10 bg-white/[0.055] p-8 shadow-2xl shadow-black/20 backdrop-blur-xl md:p-12 lg:grid-cols-2 lg:items-center">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">Digital Monkey Tracker</p>
-            <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">Real-time tracking of grail sales across VeVe & StackR.</h2>
+          <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#f5c542]">
+                Digital Monkey Tracker
+              </p>
+
+              <h2 className="mt-4 max-w-3xl text-5xl font-semibold tracking-[-0.06em] md:text-7xl">
+                Real-time tracking of grail sales across VeVe & StackR.
+              </h2>
+
+              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50">
+                From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market.
+              </p>
+            </div>
+
             <a
               href="https://x.com/TrackerVeve"
               target="_blank"
@@ -290,10 +302,7 @@ export default function Home() {
             >
               Access HERE →
             </a>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/50">
-              From Todd Batmans to Partners Statues — every major move, every big flip, every signal that matters. Follow the money. Follow the trends. Stay ahead of the market.
-            </p>
-          </div>
+          </div>          
 
           <div className="rounded-[2rem] border border-white/10 bg-[#0b0d13] p-5">
             <div className="mb-5 flex items-center justify-between">
@@ -302,7 +311,6 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold">X Account Feed</h3>
               </div>
               <span className="rounded-full bg-[#f5c542] px-4 py-2 text-xs font-semibold text-black">ONLINE</span>
-              <a href="https://x.com/TrackerVeve" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 text-xs font-semibold text-white/80 transition hover:border-[#f5c542]/50 hover:bg-[#f5c542]/10 hover:text-[#f5c542]" > Access HERE → </a>
             </div>
             <div className="space-y-3">
               {["🎯 Grail listing spotted", "💎 Amount in OMI/USD", "⚡ Transaction URL"].map((item) => (
