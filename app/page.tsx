@@ -135,7 +135,7 @@ export default function Home() {
           </a>
         </nav>
 
-        <motion.div style={{ y: heroY }} className="relative z-20 mx-auto max-w-7xl px-6 pb-24 pt-20 text-center">
+        <motion.div style={{ y: heroY }} className="relative z-20 mx-auto max-w-7xl px-6 pb-24 pt-12 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
