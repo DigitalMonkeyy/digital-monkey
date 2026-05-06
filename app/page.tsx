@@ -142,7 +142,7 @@ export default function Home() {
             transition={{ duration: 0.7 }}
             className="mx-auto mb-7 w-fit rounded-full border border-white/10 bg-white/[0.07] px-4 py-2 text-sm font-medium text-white/65 shadow-2xl shadow-black/30 backdrop-blur-xl"
           >
-            Documenting The Rise of Digital Ownership
+            Documenting The Rise Of Digital Ownership
           </motion.div>
 
           <motion.h1
@@ -294,6 +294,7 @@ export default function Home() {
                 <h3 className="text-2xl font-semibold">X account feed</h3>
               </div>
               <span className="rounded-full bg-[#f5c542] px-4 py-2 text-xs font-semibold text-black">ONLINE</span>
+              <a href="https://x.com/TrackerVeve" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 text-xs font-semibold text-white/80 transition hover:border-[#f5c542]/50 hover:bg-[#f5c542]/10 hover:text-[#f5c542]" > Access HERE → </a>
             </div>
             <div className="space-y-3">
               {["🎯 Grail listing spotted", "💎 Amount in OMI/USD", "⚡ Transaction URL"].map((item) => (
