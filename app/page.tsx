@@ -198,7 +198,7 @@ export default function Home() {
                   <span className="h-3 w-3 rounded-full bg-[#ffbd2e]" />
                   <span className="h-3 w-3 rounded-full bg-[#28c840]" />
                 </div>
-                <a href="https://x.com/VeVeAlert" target="_blank" rel="noreferrer" className="text-xs font-semibold text-white/70 hover:text-[#f5c542] transition relative" > Access HERE → <span className="absolute left-0 -bottom-1 h-px w-0 bg-[#f5c542] transition-all duration-300 group-hover:w-full"></span> </a>
+                <a href="https://x.com/VeVeAlert" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 text-xs font-semibold text-white/80 transition hover:border-[#f5c542]/50 hover:bg-[#f5c542]/10 hover:text-[#f5c542]" > Access HERE → </a>
               </div>
 
               <div className="grid gap-0 lg:grid-cols-[1fr_360px]">
@@ -291,7 +291,7 @@ export default function Home() {
             <div className="mb-5 flex items-center justify-between">
               <div>
                 <p className="text-sm text-white/35">Tracker Status</p>
-                <h3 className="text-2xl font-semibold">X account feed</h3>
+                <h3 className="text-2xl font-semibold">X Account Feed</h3>
               </div>
               <span className="rounded-full bg-[#f5c542] px-4 py-2 text-xs font-semibold text-black">ONLINE</span>
               <a href="https://x.com/TrackerVeve" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 bg-white/[0.06] px-4 py-2 text-xs font-semibold text-white/80 transition hover:border-[#f5c542]/50 hover:bg-[#f5c542]/10 hover:text-[#f5c542]" > Access HERE → </a>
