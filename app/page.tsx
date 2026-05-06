@@ -135,7 +135,7 @@ export default function Home() {
           </a>
         </nav>
 
-        <motion.div style={{ y: heroY }} className="relative z-20 mx-auto max-w-7xl px-6 pb-24 pt-12 text-center">
+        <motion.div style={{ y: heroY }} className="relative z-20 mx-auto max-w-7xl px-6 pb-24 pt-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -151,7 +151,7 @@ export default function Home() {
             transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
             className="mx-auto max-w-6xl text-6xl font-semibold leading-[0.88] tracking-[-0.08em] text-white md:text-8xl lg:text-9xl"
           >
-            The future of collecting isn’t coming — it’s already here.
+            The future of collecting, made obvious.
           </motion.h1>
 
           <motion.p
